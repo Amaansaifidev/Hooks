@@ -9,7 +9,7 @@ function App() {
   const [name, setname] = useString(); 
   return (
   <>
-      
+  <p>{name}</p>      
 </>
 
   )
