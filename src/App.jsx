@@ -6,7 +6,7 @@ import './App.css'
 import { useString } from "hooks/useString.jsx";
 
 function App() {
-  const [name, setname] = useString(); 
+  const [name, setname] = useState("amaan"); 
   return (
   <>
   <p>{name}</p>      
