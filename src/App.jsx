@@ -3,10 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-
+import useString from './hooks/useString.js'
 
 function App() {
-  const [name, setname] = useState("amaan"); 
+  const [name, setname] = useString(); 
   return (
   <>
   <p>{name}</p>      
